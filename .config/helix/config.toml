@@ -1,0 +1,12 @@
+theme = "gruvbox"
+
+[editor.statusline]
+left = ["mode", "file-name", "diagnostics", "spinner", "file-type"]
+# center = []
+right = ["selections", "position", "position-percentage", "file-encoding"]
+
+separator = "|"
+
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"

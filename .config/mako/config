@@ -1,0 +1,17 @@
+default-timeout=10000
+
+# THEME
+font=FiraCode 12
+
+background-color=#282828
+text-color=#a89984
+border-color=#3c3836
+
+[urgency=low]
+border-color=#3c3836
+
+[urgency=normal]
+border-color=#d79921
+
+[urgency=high]
+border-color=#cc241d
