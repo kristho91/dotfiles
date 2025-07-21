@@ -102,7 +102,7 @@ input type:touchpad {
     bindsym $mod+q kill
     bindsym $mod+d exec $menu
     bindsym $mod+l exec swaylock
-    bindsym $mod+p exec ~/.scripts/powermenu.fish
+    bindsym $mod+p exec ~/.config/fuzzel/scripts/powermenu.fish
     
     bindsym $mod+Return exec $term
     bindsym $mod+b exec $browser
@@ -247,8 +247,8 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
     # Special key to take a screenshot with grim
-    bindsym Print exec grim ~/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S").png; exec notify-send 'Grim' 'Image saved to ~/Screenshots'
-    bindsym $mod+Print exec grim -g "$(slurp)" ~/Screenshots/$(date +"%Y-%m-%d_%H-%M-%S").png; exec notify-send 'Grim' 'Image saved to ~/Screenshots'
+    bindsym Print exec grim ~/Billeder/$(date +"%Y-%m-%d_%H-%M-%S").png; exec notify-send 'Grim' 'Image saved to ~/Billeder'
+    bindsym $mod+Print exec grim -g "$(slurp)" ~/Billeder/$(date +"%Y-%m-%d_%H-%M-%S").png; exec notify-send 'Grim' 'Image saved to ~/Billeder'
 
     exec wl-paste -t text --watch clipman store --no-persist
 
