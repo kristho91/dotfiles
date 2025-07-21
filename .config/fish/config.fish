@@ -9,3 +9,4 @@ end
 theme_gruvbox dark medium
 
 abbr -a -- cls clear
+abbr -a -- hx helix
