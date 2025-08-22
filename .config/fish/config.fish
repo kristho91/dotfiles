@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 function fish_greeting
-    fortune cookie | cowsay -f tux
+    /usr/games/fortune cookie | /usr/games/cowsay -f tux
 end
 
 theme_gruvbox dark medium
