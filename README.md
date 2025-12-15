@@ -7,7 +7,7 @@ sudo pacman -S ttf-font-awesome ttf-firacode-nerd swaybg swaylock mako grim heli
 # Debian 13 :: Install packages
 
 ```
-sudo apt install sway swaybg swaylock waybar fuzzel mako grim clipman brightnessctl fortunes cowsay lazygit fonts-font-awesome fonts-firacode
+sudo apt install sway swaybg swaylock waybar fuzzel mako grim clipman brightnessctl fortunes cowsay lazygit nwg-look fonts-font-awesome fonts-firacode
 ```
 
 # Manual
